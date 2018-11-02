@@ -1,3 +1,4 @@
+getwd()
 library(ggplot2)
 data(diamonds)
 summary(diamonds)
