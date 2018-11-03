@@ -36,3 +36,6 @@ by(diamonds$price,diamonds$color,summary)
 
 #GRAFICO DE FREQUENCIA
 qplot(x= carat,data= diamonds,geom = 'freqpoly',binwidth=0.01)
+
+install.packages('tidyr')
+install.packages('dplyr')
